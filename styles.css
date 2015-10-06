@@ -1,0 +1,93 @@
+body {
+    background-image: url(images/back.jpg);
+    background-size: relative;
+
+}
+
+h1 {
+    color: rgba(255,255,255,0.5);
+    font-style: Arial;
+    font-size: 100px;
+    margin-left: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    width: 100px;
+    margin-left: 100px;
+}
+
+a:link, a:visited {
+    display: block;
+    width: relative;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: none;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.menubar {
+	margin-top: 50px;
+	text-align: center;
+	margin-left: 20px;
+    font-family: Garamond, serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+
+    }
+.ruta {
+	background-color: (255,255,255,0.8);
+	margin-top:200px;
+	margin-left:50px;
+	margin-right:50px;
+	text-align: center;
+	font-style: Arial;
+	font-size:150px;
+	border: solid;
+	border-width: 2px;
+}
+
+.ct-chart {
+    font-color: white;
+    font-size: 12px;
+    font-family: Verdana;
+}
+/* Use this selector to override the line style on a given series */
+.ct-series-a .ct-line {
+  /* Set the colour of this series line */
+  stroke: purple;
+  /* Control the thikness of your lines */
+  stroke-width: 8px;
+  /* Create a dashed line with a pattern */
+  stroke-dasharray: 2px 2px;
+}
+
+.ct-series-b .ct-line {
+    stroke: red;
+    stroke-width: 5px;
+}
+
+.ct-series-c .ct-line {
+    stroke: blue;
+    stroke-width: 20px;
+}
+
+.jumbotron {
+}

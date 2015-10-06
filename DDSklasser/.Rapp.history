@@ -1,0 +1,4 @@
+source("/Users/jonaslindstrom/Desktop/Hyper Island material/webbbb/DDSklasser/DDS - All classes.csv")
+import csv
+import ("/Users/jonaslindstrom/Desktop/Hyper Island material/webbbb/DDSklasser/DDS - All classes.csv")
+demo ()
